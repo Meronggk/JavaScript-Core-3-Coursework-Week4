@@ -4,6 +4,9 @@ test("returns largest number in array", function () {
   // Arrange
   // Act
   // Assert
+  let numbers = [3, 21, 88, 4, 36];
+  let result = getLargestNumber(numbers);
+  let output = 88;
 });
 
 // example
